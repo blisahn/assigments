@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+
+footer {
+  background: #111;
+  padding: 15px;
+}
+
+.text-warning:hover {
+  text-decoration: underline;
+}

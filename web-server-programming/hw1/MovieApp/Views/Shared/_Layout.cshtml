@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - MovieApp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+</head>
+
+<body class="bg-dark text-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom">
+        <div class="container">
+
+            <a class="navbar-brand" asp-action="Index">Movie App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger fw-bold" asp-controller="Movie" asp-action="Index">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        @if (Context.Request.Cookies["FirstName"] != null && Context.Request.Cookies["LastName"] !=
+                                                null)
+                        {
+                            <!-- Display Greeting and Logout -->
+                            <span class="nav-link text-light">
+                                Hello, @Context.Request.Cookies["FirstName"] @Context.Request.Cookies["LastName"]
+                            </span>
+                            <a class="nav-link text-light" asp-controller="Movie" asp-action="Logout">Logout</a>
+                        }
+                        else
+                        {
+                            <a class="nav-link text-light" asp-controller="Movie" asp-action="Login">LOGIN</a>
+                        }
+                    </li>
+                    @if (Context.Request.Cookies["FirstName"] != null && Context.Request.Cookies["LastName"] !=
+                                        null)
+                    {
+                        <a class="nav-link text-light" asp-controller="Movie" asp-action="Cart">View Your Cart!</a>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger">
+                <strong>@ViewBag.ErrorMessage</strong>
+                <a href="@Url.Action("Login", "Movie")" class="btn btn-danger ms-3">Login</a>
+            </div>
+        }
+        @RenderBody()
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

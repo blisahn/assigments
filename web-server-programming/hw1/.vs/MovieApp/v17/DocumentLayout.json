@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|c:\\users\\sahin\\desktop\\code\\mvc\\movieapp\\movieapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|c:\\users\\sahin\\desktop\\code\\mvc\\movieapp\\movieapp\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|c:\\users\\sahin\\desktop\\code\\mvc\\movieapp\\movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|c:\\users\\sahin\\desktop\\code\\mvc\\movieapp\\movieapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|c:\\users\\sahin\\desktop\\code\\mvc\\movieapp\\movieapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B0CE9B-EAC6-4A13-B695-630C7B1B8B84}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T10:19:57.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Program.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Program.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Program.cs",
+              "RelativeToolTip": "MovieApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T11:32:29.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T10:24:39.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T09:56:56.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\sahin\\Desktop\\code\\MVC\\MovieApp\\MovieApp\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieApp\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:28:52.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

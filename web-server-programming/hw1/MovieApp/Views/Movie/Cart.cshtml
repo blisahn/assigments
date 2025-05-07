@@ -1,0 +1,29 @@
+@model HashSet<MovieApp.Models.Movie>
+
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<h2>Your Cart</h2>
+
+@if (Model.Count == 0)
+{
+    <p>Your cart is empty.</p>
+}
+else
+{
+    <div class="list-group">
+        @foreach (var movie in Model)
+        {
+            <div class="list-group-item">
+                <img src="@movie.ImageUrl" height=300 width=500 alt="@movie.Title Picture">
+                <h5>@movie.Title</h5>
+                <p><strong>Director:</strong> @movie.Director</p>
+                <p><strong>Release Year:</strong> @movie.ReleaseYear</p>
+                <p><strong>Stars:</strong> @string.Join(", ", movie.Stars)</p>
+            </div>
+        }
+    </div>
+}
+
+<a href="@Url.Action("Index", "Movie")" class="btn btn-danger mt-3">Return to Movie List</a>

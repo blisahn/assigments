@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Users</h1>
+
+    <div class="user-card" *ngFor="let user of users">
+        <h2>{{ user.name }}</h2>
+        <p class="user-info">Email: {{ user.email }}</p>
+        <p class="user-info">City: {{ user.city }}</p>
+    </div>
+</div>

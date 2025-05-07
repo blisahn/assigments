@@ -1,0 +1,30 @@
+﻿@model List<MovieApp.Models.Movie>
+@{
+    ViewData["Title"] = "Movies";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        <strong>@TempData["SuccessMessage"]</strong>
+    </div>
+}
+
+<h2>Movies</h2>
+
+<div class="row">
+    @foreach (var movie in Model)
+    {
+        <div class="col-md-4">
+            <div class="card bg-dark mb-3">
+                <a href="@Url.Action("Details", "Movie", new { id = movie.Id })">
+                    <img src="@Url.Content(movie.ImageUrl)" class="card-img-top" width="300" height="500"
+                        alt="@movie.Title">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold text-white">@movie.Title</h5>
+                </div>
+            </div>
+        </div>
+    }
+</div>

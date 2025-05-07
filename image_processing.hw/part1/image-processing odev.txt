@@ -1,0 +1,11 @@
+1)
+a. >> x = randperm(50) = assign a random permutation number from 1 to 50 to x variable.
+b. >> a = [1:2:10; 11:2:20]';   = creates a column matrix with the numbres increased by 2 for each element.
+   >> b = a(2,:); = receive the second row of a
+c. >> f = randn(10,2); = generates a 10 x 2 matrix of normally distributed random numbers
+   >> g = f(find(f < 1)); = extract all valuees from f that are less than 1 and assigns them to g
+d. >> x = 0.5.* ones(1,10); = creates a row vector of 10 elements all of them are 0.5  
+   >> y = 0.5+zeros(1,length(x));  = creates a row vector of 10 elements all of them are 0 and then adds 0.5 to all.
+   >> z = x + y; = summation of the x and y in element-wise way.
+e. >> a = [1:100]; = creates an array containing the numbers from 1 to 100
+   >> b = a([end:-1:1]); = reverse all the emenet orders in the array.

@@ -1,0 +1,49 @@
+@model MovieApp.Models.Movie
+
+@{
+    ViewData["Title"] = "Movie Info";
+}
+
+<div class="container text-center mt-5">
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger mt-3 p-3 rounded" style="background-color: #222; color: #ff4c4c;">
+            <h4 class="fw-bold">@TempData["ErrorMessage"]</h4>
+        </div>
+    }
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success mt-3 p-3 rounded" style="background-color: #223c22; color: #7fff7f;">
+            <h4 class="fw-bold">@TempData["SuccessMessage"]</h4>
+        </div>
+    }
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger mt-5 p-4 rounded" style="background-color: #222; color: #ff4c4c;">
+            <h2 class="fw-bold">@ViewBag.ErrorMessage</h2>
+            <a href="@Url.Action("Index", "Movie")" class="btn btn-warning fw-bold mt-3">Return to Main Page</a>
+        </div>
+    }
+    else
+    {
+        <div class="card mx-auto text-white bg-dark border-secondary" style="width: 400px;">
+            <img src="@Url.Content(Model.ImageUrl)" class="card-img-top border-bottom border-secondary" alt="@Model.Title">
+            <div class="card-body">
+                <h3 class="card-title text-warning fw-bold">@Model.Title</h3>
+                <p><strong class="text-danger">Director:</strong> @Model.Director</p>
+                <p><strong class="text-danger">Stars:</strong> @string.Join(", ", Model.Stars)</p>
+                <p><strong class="text-danger">Release Year:</strong> @Model.ReleaseYear</p>
+
+                <!-- Add to Cart Button -->
+                <a href="@Url.Action("AddToCart", "Movie", new { movieId = Model.Id })"
+                    class="btn btn-warning fw-bold mt-3">
+                    Add to Cart
+                </a>
+
+                <a href="@Url.Action("Index", "Movie")" class="btn btn-danger fw-bold mt-3">Return to Main Page</a>
+            </div>
+        </div>
+    }
+</div>
